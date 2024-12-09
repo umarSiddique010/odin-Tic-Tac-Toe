@@ -66,6 +66,8 @@ function startGame(e) {
   playerX = playerXInput.value.trim();
   playerO = playerOInput.value.trim();
 
+  if (playerX === "" || playerO === "") return false
+
   formContainer.classList.add("hidden");
 }
 
