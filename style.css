@@ -74,7 +74,6 @@ font-size: 18px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   border: none;
-  padding: 30px;
 }
 
 .cells {
